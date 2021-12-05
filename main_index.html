@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="main_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body style="background-image: URL(BG.jpg);">
+        <div class="container" style="text-align: center;" id="score">
+            <h3>Scores:</h3>
+            <h4 id="player1_score"></h4>
+            <h4 id="player2_score"></h4>
+        </div>
+
+        <div class="container">
+            <center>
+                <h1 style="color: white;">Math Quiz Game!</h1>
+                <hr>
+                <h2 id="player_question" style="color: white;">Question Turn:</h2>
+                <h2 id="player_answer" style="color: white;">Answer Turn:</h2>
+                <br>
+                <div id="output" class="col-lg-5">
+                    <h4 id="ques" style="font-weight: bold;">Question displayed here</h4>
+                    <br>
+                    <label id="Question">Answer: <span><input type="text" id="Answer" class="form-control" placeholder="Enter Answer Here"></span></label>
+                    <br><br>
+                    <button class="btn btn-info" id="Check" onclick="Check()">Check</button>
+                </div>
+                <br><br>
+                <div id="Number1" class="container">
+                    <img id="user-i" class="img-responsive" src="No.1.png"> <span>
+                       <label>Number 1:</label>  
+                    <input type="text" id="No1" class="form-control" placeholder="Enter No.1 Here"> </span>
+                </div>
+                <br>
+                <div id="Number2" class="container">
+                    <img id="user-i" class="img-responsive" src="No.2.png"> <span>
+                       <label>Number 2:</label>  
+                    <input type="text" id="No2" class="form-control" placeholder="Enter No.2 Here"> </span>
+                </div>
+                <br><br>
+                <button id="send" class="btn btn-primary" onclick="Send()"><img src="icons8-email-send-30.png"><label id="temp">Send</label><img src="icons8-email-send-30 - Copy.png"></button>
+            </center>
+        </div>
+    <script src="main_main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+#output{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-top: 10px solid grey;
+    padding: 10px;
+    float: none;
+}
+
+#Number1,#Number2{
+    border-radius: 50px;
+    background-color: #DAD8D7;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    width: 30%;
+    height: fit-content;
+    vertical-align: middle;
+}
+
+#No1,#No2{
+    width: 80%;
+    height: 100%;
+    vertical-align: middle;
+    float: none;
+    background-color: transparent;
+    border: none;
+}
+
+#user-i{
+    float: left;
+    width: auto;
+    height: 50px;
+}
+
+#score{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 20px;
+    width: 10%;
+    background-color: #DAD8D7;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#send{
+    box-shadow: 3px 3px 3px;
+}
+
+#icon{
+    width: 40px;
+}
+
+#temp{
+    margin: 5px;
+    font-weight: normal;
+    font-family: monospace;
+    font-size: 16px;    
+}
